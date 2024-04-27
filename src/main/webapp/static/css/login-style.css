@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:
+            radial-gradient(
+                    circle at 100% 100%, /* 波纹中心在右下角 */
+                    #e0eaff 10%, /* 较浅的银色，增加科技感 */
+                    #b0d4ff 20%, /* 较深的蓝色，渐变起始色 */
+                    #004e92 80%, /* 中等深度的蓝色 */
+                    #002033 100% /* 最深的蓝色，渐变结束色 */
+            ),
+            linear-gradient(180deg, #e0eaff 0%, #002033 100%); /* 背景主色调渐变，从浅到深 */
+    background-size: cover, cover;
+    height: 100vh; /* 确保body元素至少覆盖整个视口高度 */
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+#bigBox
+{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px 50px;
+    background-color: #000000;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#bigBox h1
+{
+    font-size: 40px;
+    color: floralwhite;
+}
+#bigBox .inputBox
+{
+    margin-top: 35px;
+}
+#bigBox .inputBox .inputText
+{
+    margin-top: 20px;
+}
+#bigBox .inputBox .inputText input
+{
+    border: 0;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+    background-color: #00000000;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+}
+#bigBox .inputBox .inputText i
+{
+    color: white;
+}
+#bigBox .inputBox .inputButton
+{
+    border: 0;
+    width: 200px;
+    height: 50px;
+    color: white;
+    margin-top: 55px;
+    border-radius:20px;
+    background-image: linear-gradient(to right, #5d9cec 0%, #4a81d4 33%, #3061a9 66%, #1a3e85 100%);
+}
+#bigBox .inputBox .inputButton:hover {
+    background-image: linear-gradient(to right, #4a81d4 0%, #5d9cec 50%, #3061a9 100%);
+    box-shadow: 0 0 8px rgba(93, 156, 236, 0.6);
+}
