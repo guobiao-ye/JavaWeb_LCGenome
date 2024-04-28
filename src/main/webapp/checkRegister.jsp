@@ -20,12 +20,12 @@
     String username = request.getParameter("username");
     String password = request.getParameter("password");
 
-    // 创建 LoginService 实例
+    // 创建 实例
     Register register = new Register();
 
-    // 调用 LoginService 类的方法进行登录验证
+    // 调用方法进行登录验证
     if (register.RegisterInserted(username, password)) {
-        // 验证成功，跳转到 services.jsp 页面
+        // 验证成功，跳转到 login.jsp 页面
         response.sendRedirect("login.jsp");
     } else {
         // 验证失败，显示错误提示
