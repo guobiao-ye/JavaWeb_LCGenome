@@ -5,7 +5,7 @@ import java.sql.*;
 public class Register {
     private String dbUrl = "jdbc:mysql://localhost:3306/web";
     private String dbUser = "root";
-    private String dbPassword = "Slysg123";
+    private String dbPassword = "*******";
 
     public boolean RegisterInserted(String username, String password) {
         Connection conn = null;
