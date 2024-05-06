@@ -1,10 +1,6 @@
 # JavaWeb_LCGenome
 LCGenome is a user-friendly platform designed for the storage and retrieval of lung cancer genes and targeted therapy information 
 
-<br>
-![logo](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/0a7a7605-a5ca-46c1-9569-1218777517c0)
-<br>
-
 ## Project Run Annotations
 ### Database Connection Configuration
 **Caution**: In the source code where JDBC is used to connect to the database, for privacy reasons, the username and password fields have been replaced with `******`. If you wish to run this project locally and ensure a proper database connection, please update the username and password in the source code according to your own local database information.
@@ -22,6 +18,10 @@ Please ensure you follow these steps so that `LoginService.java` can interact sm
 - When modifying the database connection information in the source code, ensure the accuracy and security of the information.
 - When working with databases, it is advisable to back up your data to prevent accidental loss.
   
+### Logo
+![logo](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/1a366bf2-21a5-44f1-af5f-f1083eff86fc)
+
+<br>
 
 ### Home
 ![home](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/9bfbc97d-127d-4169-a98c-fe5744637ba3)
