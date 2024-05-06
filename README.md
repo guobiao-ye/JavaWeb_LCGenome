@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* 定义右下角的容器样式 */
+  .lower-right {
+    position: absolute;
+    right: 10px;  /* 距离页面右侧10像素 */
+    bottom: 10px; /* 距离页面底部10像素 */
+  }
+</style>
+</head>
+<body>
+
+<!-- 使用HTML的img标签显示图片，并应用样式 -->
+<div class="lower-right">
+  <img src="https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/17f1e379-657e-42c3-b876-70f7952491b4" alt="logo">
+</div>
+
 # JavaWeb_LCGenome
 LCGenome is a user-friendly platform designed for the storage and retrieval of lung cancer genes and targeted therapy information
 
@@ -17,8 +36,7 @@ Please ensure you follow these steps so that `LoginService.java` can interact sm
 ### Precautions
 - When modifying the database connection information in the source code, ensure the accuracy and security of the information.
 - When working with databases, it is advisable to back up your data to prevent accidental loss.
+  
 
 ![home](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/9bfbc97d-127d-4169-a98c-fe5744637ba3)
 
-
-![logo](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/17f1e379-657e-42c3-b876-70f7952491b4)
