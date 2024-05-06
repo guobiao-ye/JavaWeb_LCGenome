@@ -1,24 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  /* 定义右下角的容器样式 */
-  .lower-right {
-    position: absolute;
-    right: 10px;  /* 距离页面右侧10像素 */
-    bottom: 10px; /* 距离页面底部10像素 */
-  }
-</style>
-</head>
-<body>
-
-<!-- 使用HTML的img标签显示图片，并应用样式 -->
-<div class="lower-right">
-  <img src="https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/17f1e379-657e-42c3-b876-70f7952491b4" alt="logo">
-</div>
-
 # JavaWeb_LCGenome
-LCGenome is a user-friendly platform designed for the storage and retrieval of lung cancer genes and targeted therapy information
+LCGenome is a user-friendly platform designed for the storage and retrieval of lung cancer genes and targeted therapy information 
+
+<br>
+![logo](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/0a7a7605-a5ca-46c1-9569-1218777517c0)
+<br>
 
 ## Project Run Annotations
 ### Database Connection Configuration
@@ -38,5 +23,46 @@ Please ensure you follow these steps so that `LoginService.java` can interact sm
 - When working with databases, it is advisable to back up your data to prevent accidental loss.
   
 
+### Home
 ![home](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/9bfbc97d-127d-4169-a98c-fe5744637ba3)
 
+<br>
+
+### Team
+![team](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/17ea52b3-872c-4328-8a60-5a1efadac320)
+
+<br>
+
+### Services
+![Service](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/1a4919de-1a67-4ac6-8710-a02a0d77b2ff)
+
+<br>
+
+### Other Pages
+
+![about](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/5d2c660d-0f60-414e-84b0-88a799c5212c)
+
+<br>
+
+![Servicedetail](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/ca8fd5cf-95d8-4144-ba33-b59175d4b3a8)
+
+<br>
+
+![faq](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/7869831e-6d32-47ec-a169-6c9a9fc90399)
+
+<br>
+
+![privacy](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/ee9c139a-1fda-4fca-af04-245bb4a4fcb4)
+
+<br>
+
+![condition](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/ea2bf681-8001-4ae1-81f3-9051642aef68)
+
+
+<br>
+
+![coming](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/6ec3cc97-350a-46c7-b00a-891e88e4df72)
+
+<br>
+
+![contact](https://github.com/guobiao-ye/JavaWeb_LCGenome/assets/127282285/400b2ecb-3158-45fb-afe2-eecd34751773)
