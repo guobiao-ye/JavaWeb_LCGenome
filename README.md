@@ -1,7 +1,7 @@
 # JavaWeb_LCGenome
 LCGenome is a user-friendly platform designed for the storage and retrieval of lung cancer genes and targeted therapy information
 
-## Project Run Instructions
+## Project Run Annotations
 ### Database Connection Configuration
 **Caution**: In the source code where JDBC is used to connect to the database, for privacy reasons, the username and password fields have been replaced with `******`. If you wish to run this project locally and ensure a proper database connection, please update the username and password in the source code according to your own local database information.
 
